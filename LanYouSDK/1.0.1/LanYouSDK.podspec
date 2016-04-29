@@ -77,9 +77,8 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
-  s.source       = { :svn => "https://github.com/JohnChenFromChina/LanYouSDK.git", :tag => "1.0.1" }
-
+  s.source       = { :svn => "http://172.25.6.8:81/svn/移动应用及开发科知识库/05_个人区/陈广均/Repo/LanYouSDK", :tag => "1.0.1" }
+  # s.source       = { :git => "https://github.com/JohnChenFromChina/LanYouSDK.git", :tag => "1.0.1" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
